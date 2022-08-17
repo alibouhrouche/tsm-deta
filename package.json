@@ -1,0 +1,29 @@
+{
+  "name": "tsm-deta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./build.js",
+    "preview": "node ./dev.js",
+    "deploy": "deta deploy"
+  },
+  "dependencies": {
+    "deta": "^1.1.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "dotenv": "^16.0.1",
+    "esbuild": "^0.14.50",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.8",
+    "vite-plugin-environment": "^1.1.2",
+    "vite-plugin-node": "^1.0.0"
+  },
+  "volta": {
+    "node": "14.20.0"
+  }
+}

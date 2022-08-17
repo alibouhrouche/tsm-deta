@@ -1,0 +1,6 @@
+node_modules
+.env
+src
+.vscode
+dev.js
+build.js
